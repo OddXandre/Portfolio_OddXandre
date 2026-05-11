@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OddXandre - UX/UI & Visual Designer | Diseño Digital & Branding</title>
+    <meta name="description"
+        content="Portfolio de OddXandre. Diseño digital, identidad de marca y experiencias interactivas enfocadas en la estrategia y la conexión humana.">
+    <link rel="canonical" href="https://oddxandre.es/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oddxandre.es/">
+    <meta property="og:title" content="OddXandre - UX/UI & Visual Designer | Diseño Digital & Branding">
+    <meta property="og:description"
+        content="Diseño digital, identidad de marca y experiencias interactivas con propósito. Basado en Málaga.">
+    <meta property="og:image" content="https://oddxandre.es/media/og-image.jpg">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="OddXandre Portfolio">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://oddxandre.es/">
+    <meta name="twitter:title" content="OddXandre - UX/UI & Visual Designer | Diseño Digital & Branding">
+    <meta name="twitter:description"
+        content="Diseño digital, identidad de marca y experiencias interactivas con propósito.">
+    <meta name="twitter:image" content="https://oddxandre.es/media/og-image.jpg">
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="media/Favicon.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "OddXandre",
+        "givenName": "Pedro",
+        "familyName": "Carreras",
+        "jobTitle": "UX/UI & Visual Designer",
+        "url": "https://oddxandre.es",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Málaga",
+          "addressRegion": "Andalucía",
+          "addressCountry": "ES"
+        },
+        "sameAs": [
+          "https://es.linkedin.com/in/xvndre",
+          "https://www.instagram.com/oddxandre/"
+        ],
+        "description": "Diseñador UX/UI y visual en Málaga. Especializado en diseño de producto, branding estratégico, interfaces web y móviles, y diseño de experiencia de usuario.",
+        "knowsAbout": ["UX/UI Design", "Visual Design", "Branding", "Product Design", "Interaction Design", "Web Design", "Mobile Design", "Design Systems"],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "OddXandre Studio"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "OddXandre - Portfolio",
+        "url": "https://oddxandre.es",
+        "description": "Portfolio de diseño UX/UI y branding de OddXandre, diseñador visual en Málaga."
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué servicios de diseño ofrece OddXandre?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OddXandre ofrece diseño UX/UI, diseño visual, branding estratégico, diseño de producto digital, diseño de interfaces web y móviles, y sistemas de diseño. Cada proyecto se aborda con un enfoque centrado en el usuario y basado en la estrategia de marca."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Dónde está basado OddXandre?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OddXandre está basado en Málaga, Andalucía, España. Trabaja tanto de forma remota como presencial con clientes de toda España y Europa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta contratar a un diseñador UX/UI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El coste de un diseñador UX/UI depende del alcance del proyecto, la complejidad y la duración. OddXandre trabaja con presupuestos personalizados para cada proyecto. Para solicitar un presupuesto, se puede contactar a través del formulario de contacto."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué diferencia a OddXandre de otros diseñadores?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OddXandre combina una sólida base en diseño visual con un enfoque estratégico centrado en el usuario. Cada decisión de diseño tiene un propósito: crear experiencias que conecten con las personas y cumplan objetivos de negocio. No se trata solo de estética, sino de funcionalidad, claridad y emoción."
+            }
+          }
+        ]
+      }
+    ]
+    </script>
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-mask"></div>
+            <video class="loader-video" autoplay loop muted playsinline webkit-playsinline>
+                <source src="media/loader.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Header Móvil (Logo Izquierda) -->
+            <div class="mobile-header">
+                <a href="index.html" class="mobile-logo">
+                    <img src="media/Logo.png" alt="Home" width="669" height="90">
+                </a>
+            </div>
+
+            <!-- Wrapper Menú Derecha (Controles + Dropdown) -->
+            <div class="menu-wrapper">
+                <div class="mobile-controls">
+                    <span class="current-page-label">Inicio</span>
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+
+                <ul class="nav-links">
+                    <li class="home-nav-item"><a href="index.html" class="home-link">Inicio</a></li>
+                    <div class="active-pill"></div>
+                    <!-- Logo Desktop (oculto en móvil) -->
+                    <li class="desktop-only">
+                        <a href="index.html" class="nav-item logo-item active">
+                            <img src="media/Logo.png" alt="Home" class="nav-logo-img" width="669" height="90">
+                        </a>
+                    </li>
+                    <li><a href="work.html" class="nav-item">Trabajo</a></li>
+                    <li><a href="about.html" class="nav-item">Sobre mi</a></li>
+                    <li><a href="contact.html" class="nav-item">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content Wrapper for SPA -->
+    <main id="page-content">
+        <div class="home-pin-wrapper">
+            <!-- Hero Section (Full Height) -->
+            <header class="hero-container">
+                <h1 class="visually-hidden">OddXandre - UX/UI & Visual Designer en Málaga</h1>
+                <!-- Hero Image/Video (Centered) -->
+                <video autoplay muted loop playsinline class="hero-header-img" aria-hidden="true">
+                    <source src="media/video.mp4" type="video/mp4">
+                </video>
+                <!-- Gradient Overlay -->
+                <div class="hero-gradient-overlay" aria-hidden="true"></div>
+
+                <!-- Central Signature/Image -->
+                <div class="hero-signature-wrapper">
+                    <img loading="lazy" decoding="async" src="media/Xandre.webp"
+                        alt="OddXandre - Pedro Carreras Signature" class="hero-signature" width="1200" height="469">
+                </div>
+
+                <div class="hero-footer-text">
+                    <div class="text-line-wrapper"><span class="hero-text-line">UX/UI & VISUAL DESIGNER</span></div>
+                    <div class="text-line-wrapper"><span class="hero-text-line">BASED IN MÁLAGA. <span
+                                id="current-year">2026</span></span></div>
+                </div>
+
+                <div class="hero-footer-right">
+                    <div class="text-line-wrapper">
+                        <img loading="lazy" decoding="async" src="media/Logo2.svg" alt="OddXandre Graphic Logo"
+                            class="hero-center-logo" width="1017" height="279">
+                    </div>
+                </div>
+
+                <!-- Scroll Indicator -->
+                <div class="scroll-indicator" aria-hidden="true">
+                    <div class="scroll-mouse">
+                        <div class="scroll-dot"></div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Grupo 1 -->
+                    <div class="marquee-item"><img loading="lazy" decoding="async"
+                            src="media/carrusel/20250106_131931_1.webp" alt="Diseño gráfico y packaging - OddXandre Portfolio" width="1000"
+                            height="600">
+                    </div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/Nook_1.webp"
+                            alt="App Nook - Diseño UX/UI móvil - OddXandre Portfolio" width="1000" height="600"></div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/Template02_1.webp"
+                            alt="Diseño de interfaz web - OddXandre Portfolio" width="1920" height="1080"></div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async"
+                            src="media/carrusel/Wine_Bottle_3_1.webp" alt="Diseño de packaging y producto - OddXandre Portfolio" width="1000" height="600">
+                    </div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/bus2_1.webp"
+                            alt="Diseño gráfico corporativo - OddXandre Portfolio" width="1000" height="600"></div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/pack1_1.webp"
+                            alt="Diseño editorial y packaging - OddXandre Portfolio" width="1000" height="562"></div>
+
+                    <!-- Grupo 2 (Clon para loop) -->
+                    <div class="marquee-item"><img loading="lazy" decoding="async"
+                            src="media/carrusel/20250106_131931_1.webp" alt="Diseño gráfico y packaging - OddXandre Portfolio" width="1000"
+                            height="600">
+                    </div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/Nook_1.webp"
+                            alt="App Nook - Diseño UX/UI móvil - OddXandre Portfolio" width="1000" height="600"></div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/Template02_1.webp"
+                            alt="Diseño de interfaz web - OddXandre Portfolio" width="1920" height="1080"></div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async"
+                            src="media/carrusel/Wine_Bottle_3_1.webp" alt="Diseño de packaging y producto - OddXandre Portfolio" width="1000" height="600">
+                    </div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/bus2_1.webp"
+                            alt="Diseño gráfico corporativo - OddXandre Portfolio" width="1000" height="600"></div>
+                    <div class="marquee-item"><img loading="lazy" decoding="async" src="media/carrusel/pack1_1.webp"
+                            alt="Diseño editorial y packaging - OddXandre Portfolio" width="1000" height="562"></div>
+                </div>
+            </section>
+
+            <!-- Call to Action Section -->
+            <div class="cta-container">
+                <a href="work.html" class="cta-button">Ver trabajo</a>
+            </div>
+
+            <!-- Main Manifesto Section -->
+
+            <section class="manifesto-container">
+                <p class="manifesto-text">
+                    Diseño con intención, no con adornos.
+                    Lo visual y lo funcional van juntos o no van.
+                    Sistemas claros, experiencias que se entienden solas
+                    y una presencia visual que no necesita gritar.
+                </p>
+            </section>
+
+            <section class="philosophy-section">
+                <div class="philosophy-container">
+                    <!-- Card 1 -->
+                    <div class="philosophy-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <!-- Placeholder icon: Lightbulb/Idea -->
+                                <img loading="lazy" decoding="async" src="media/icons/vector-1.png" alt="Función Icon"
+                                    width="24" height="24">
+                            </div>
+                            <h3 class="card-title">FUNCIÓN</h3>
+                            <p class="card-desc">Tiene que servir antes de verse bien.</p>
+                        </div>
+                        <div class="card-corners">
+                            <span class="corner tl"></span>
+                            <span class="corner tr"></span>
+                            <span class="corner bl"></span>
+                            <span class="corner br"></span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="philosophy-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <!-- Placeholder icon: Figma/Structure -->
+                                <img loading="lazy" decoding="async" src="media/icons/vector.png" alt="Estructura Icon"
+                                    width="24" height="24">
+                            </div>
+                            <h3 class="card-title">ESTRUCTURA</h3>
+                            <p class="card-desc">Todo responde a un sistema.</p>
+                        </div>
+                        <div class="card-corners">
+                            <span class="corner tl"></span>
+                            <span class="corner tr"></span>
+                            <span class="corner bl"></span>
+                            <span class="corner br"></span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="philosophy-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <!-- Placeholder icon: Code/Intention -->
+                                <img loading="lazy" decoding="async" src="media/icons/vector-2.png" alt="Intención Icon"
+                                    width="24" height="24">
+                            </div>
+                            <h3 class="card-title">INTENCIÓN</h3>
+                            <p class="card-desc">Cada decisión tiene un porqué.</p>
+                        </div>
+                        <div class="card-corners">
+                            <span class="corner tl"></span>
+                            <span class="corner tr"></span>
+                            <span class="corner bl"></span>
+                            <span class="corner br"></span>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="philosophy-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <!-- Placeholder icon: Trophy/Clarity -->
+                                <img loading="lazy" decoding="async" src="media/icons/vector-3.png" alt="Claridad Icon"
+                                    width="24" height="24">
+                            </div>
+                            <h3 class="card-title">CLARIDAD</h3>
+                            <p class="card-desc">Se entiende sin explicarse.</p>
+                        </div>
+                        <div class="card-corners">
+                            <span class="corner tl"></span>
+                            <span class="corner tr"></span>
+                            <span class="corner bl"></span>
+                            <span class="corner br"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="experience-section">
+            <div class="experience-container">
+                <!-- Left Column: Intro -->
+                <div class="experience-intro">
+                    <h2 class="experience-title">Mi Experiencia</h2>
+                    <p class="experience-description">
+                        A lo largo de mi trayectoria, he tenido el privilegio de trabajar con mentes brillantes en
+                        empresas que apuestan por el diseño de calidad.
+                    </p>
+                    <a href="media/PedroCarreras_UXUI_VisualDesigner.pdf" class="download-link"
+                        download="PedroCarreras_UXUI_VisualDesigner.pdf">
+                        <span class="download-text">Descargar CV</span>
+                        <span class="download-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Right Column: List -->
+                <div class="experience-list">
+                    <div class="experience-table-header">
+                        <span class="header-label">ROL</span>
+                        <span class="header-label">EMPRESA</span>
+                        <span class="header-label">AÑO</span>
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="exp-role">Product & UX/UI Designer</span>
+                        <span class="exp-company">BeByte S.L.</span>
+                        <span class="exp-year">Abr. 2025 — Sep. 2025</span>
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="exp-role">UX/UI, Visual & Multimedia Designer</span>
+                        <span class="exp-company">Credo.si</span>
+                        <span class="exp-year">Ene. 2024 — Dic. 2024</span>
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="exp-role">UX/UI & Visual Designer</span>
+                        <span class="exp-company">Impar.ux</span>
+                        <span class="exp-year">Jun. 2022 — Sep. 2024</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section for GEO/AEO -->
+        <section class="faq-section">
+            <h2 class="visually-hidden">Preguntas frecuentes sobre diseño UX/UI en Málaga</h2>
+            <div class="faq-container">
+                <details class="faq-item">
+                    <summary class="faq-question">¿Qué servicios de diseño UX/UI ofreces?</summary>
+                    <p class="faq-answer">Diseño de interfaces web y móviles, branding estratégico, diseño de producto digital, sistemas de diseño y consultoría UX. Cada proyecto se adapta a las necesidades del cliente.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">¿Dónde estás basado y trabajas de forma remota?</summary>
+                    <p class="faq-answer">Tengo base en Málaga pero trabajo con clientes de toda España y Europa. El proceso es ágil y 100% remoto si es necesario, con entregas constantes y comunicación directa.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">¿Cuánto cuesta contratar a un diseñador UX/UI?</summary>
+                    <p class="faq-answer">Cada proyecto es diferente. Trabajo con presupuestos personalizados según alcance y complejidad. Escríbeme y te haré una propuesta sin compromiso.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Contact CTA Section -->
+        <section class="contact-cta-section">
+            <div class="contact-card">
+                <div class="contact-card-content">
+                    <p class="contact-card-text">
+                        Trabajo claro.<br>
+                        Contacto directo.
+                    </p>
+                    <div class="social-buttons">
+                        <a href="https://es.linkedin.com/in/xvndre" target="_blank" rel="noopener noreferrer"
+                            class="social-btn" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/oddxandre/" target="_blank" rel="noopener noreferrer"
+                            class="social-btn" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:oddxandre@gmail.com" target="_blank" rel="noopener noreferrer"
+                            class="social-btn" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path
+                                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-card-image">
+                    <div class="contact-image-gradient"></div>
+                    <img loading="lazy" decoding="async" src="./media/contacto.webp" alt="Contact" width="896"
+                        height="450">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-mask">
+            <div class="footer-content">
+                <img loading="lazy" decoding="async" src="./media/footer.png" alt="Footer Logo" class="footer-img"
+                    width="200" height="113">
+                <p class="footer-text">© <span id="current-year"></span> OddXandre. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="importmap">
+{
+  "imports": {
+    "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/index.js",
+    "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger.js",
+    "gsap/ScrollToPlugin": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollToPlugin.js"
+  }
+}
+</script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

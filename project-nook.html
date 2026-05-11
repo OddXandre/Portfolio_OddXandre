@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nook - OddXandre | UX/UI Design & Product Strategy</title>
+    <meta name="description"
+        content="Nook: una app de notas con ubicación inteligente. Diseño de producto centrado en la inmediatez y el contexto creado por OddXandre.">
+    <link rel="canonical" href="https://oddxandre.es/project-nook.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://oddxandre.es/project-nook.html">
+    <meta property="og:title" content="Nook - UX/UI Design & Product Strategy | OddXandre">
+    <meta property="og:description" content="Nook: app de notas inteligentes con ubicación. Diseño de producto UX/UI centrado en la inmediatez por OddXandre.">
+    <meta property="og:image" content="https://oddxandre.es/media/work/nook.jpg">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nook - UX/UI Design & Product Strategy | OddXandre">
+    <meta name="twitter:description" content="App de notas contextuales con diseño UX/UI por OddXandre.">
+    <meta name="twitter:image" content="https://oddxandre.es/media/work/nook.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="media/Favicon.png">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://oddxandre.es/"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trabajo",
+          "item": "https://oddxandre.es/work.html"
+        },{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nook",
+          "item": "https://oddxandre.es/project-nook.html"
+        }]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Nook Notes App",
+        "creator": {
+          "@type": "Person",
+          "name": "OddXandre"
+        },
+        "description": "Aplicación móvil de notas contextualizada por ubicación física.",
+        "image": "https://oddxandre.es/media/work/Portadanook.jpeg"
+      }
+    ]
+    </script>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-mask"></div>
+            <video autoplay muted loop playsinline class="loader-video">
+                <source src="media/loader.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="mobile-header">
+                <a href="index.html" class="mobile-logo">
+                    <img src="media/Logo.png" alt="Home" width="669" height="90">
+                </a>
+            </div>
+            <div class="menu-wrapper">
+                <div class="mobile-controls">
+                    <span class="current-page-label">Trabajo</span>
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+                <ul class="nav-links">
+                    <li class="home-nav-item"><a href="index.html" class="home-link">Inicio</a></li>
+                    <div class="active-pill"></div>
+                    <li class="desktop-only">
+                        <a href="index.html" class="nav-item logo-item">
+                            <img src="media/Logo.png" alt="Home" class="nav-logo-img" width="669" height="90">
+                        </a>
+                    </li>
+                    <li><a href="work.html" class="nav-item active">Trabajo</a></li>
+                    <li><a href="about.html" class="nav-item">Sobre mí</a></li>
+                    <li><a href="contact.html" class="nav-item">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="page-content">
+        <article class="site-content">
+            <section class="project-detail-section">
+                <!-- Header: Título y Meta -->
+                <header class="project-header">
+                    <div class="project-title-row">
+                        <h1 class="project-main-title">Nook</h1>
+                        <div class="project-meta-info">
+                            <span class="meta-label">EASD San Telmo</span>
+                            <span class="meta-year">2023</span>
+                        </div>
+                    </div>
+                    <div class="project-content-row">
+                        <p class="project-main-description">
+                            Nook es una app de notas diseñada para eliminar fricción en el momento más importante:
+                            cuando
+                            una idea aparece. El punto diferencial del proyecto no es estético, es funcional. Incorpora
+                            un
+                            sistema de ubicación inteligente que contextualiza automáticamente cada nota según el lugar
+                            donde se crea, reduciendo pasos, acelerando la captura y organizando la información sin
+                            esfuerzo
+                            manual.
+                            <br><br>
+                            La mayoría de apps de notas obligan al usuario a clasificar, etiquetar o estructurar después
+                            de
+                            escribir. Nook invierte esa lógica. Aprovecha el contexto físico como capa organizativa
+                            automática, permitiendo que el usuario simplemente escriba mientras la aplicación se encarga
+                            de
+                            dar sentido estructural a la información. Esto no solo agiliza la toma de notas, sino que
+                            mejora
+                            la recuperación posterior al asociar recuerdos con espacios reales.
+                            <br><br>
+                            El diseño de la interfaz responde a esa filosofía de inmediatez. Minimalista, directa y
+                            libre de
+                            distracciones, está construida para que la acción principal —capturar una idea— ocurra en
+                            segundos. La arquitectura prioriza rapidez, claridad y acceso contextual, reforzando la
+                            sensación de que la herramienta trabaja a favor del usuario, no al revés.
+                            <br><br>
+                            Nook demuestra mi capacidad para identificar un punto de fricción real y convertirlo en
+                            propuesta de valor tangible. No se trata de añadir funciones, sino de diseñar inteligencia
+                            útil.
+                            Transformar algo cotidiano como tomar notas en una experiencia más ágil, contextual y
+                            eficiente
+                            es lo que convierte a este proyecto en una solución con intención estratégica y potencial
+                            real.
+                        </p>
+                        <div class="gallery-hint-box">
+                            <svg class="gallery-hint-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                            <span>Haz clic en una imagen para ampliarla</span>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Galería de Imágenes y Video -->
+                <div class="project-gallery-grid">
+                    <!-- Video Hero (Top) -->
+                    <div class="gallery-item horizontal">
+                        <video muted loop playsinline controls aria-label="Vídeo demostrativo de la app Nook">
+                            <source src="media/work/nook/1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <!-- Flow Duo 1 -->
+                    <div class="gallery-row-duo">
+                        <div class="gallery-item vertical">
+                            <img src="media/work/nook/2.webp" alt="Nook - Interfaz de captura rápida de notas"
+                                loading="lazy" decoding="async">
+                        </div>
+                        <div class="gallery-item vertical">
+                            <img src="media/work/nook/3.webp" alt="Nook - Vista de mapa y notas contextualizadas"
+                                loading="lazy" decoding="async">
+                        </div>
+                    </div>
+
+                    <!-- Horizontal Recap -->
+                    <div class="gallery-item horizontal">
+                        <img src="media/work/nook/4.webp" alt="Nook - Sistema visual y tipografía de la aplicación"
+                            loading="lazy" decoding="async">
+                    </div>
+
+                    <!-- Flow Duo 2 -->
+                    <div class="gallery-row-duo">
+                        <div class="gallery-item vertical">
+                            <img src="media/work/nook/5.webp"
+                                alt="Nook - Organización automática por carpetas inteligentes" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <div class="gallery-item vertical">
+                            <img src="media/work/nook/6.webp" alt="Nook - Configuración de privacidad y sincronización"
+                                loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-navigation">
+                    <a href="work.html" class="back-to-work">
+                        <span class="back-text">Volver</span>
+                        <div class="back-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="project-tito-david.html" class="next-project">
+                        <span class="next-text">Siguiente Proyecto</span>
+                        <div class="next-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-mask">
+            <div class="footer-content">
+                <img loading="lazy" decoding="async" src="./media/footer.png" alt="Footer Logo" class="footer-img"
+                    width="200" height="113">
+                <p class="footer-text">© <span id="current-year"></span> OddXandre. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="importmap">
+{
+  "imports": {
+    "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/index.js",
+    "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger.js",
+    "gsap/ScrollToPlugin": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollToPlugin.js"
+  }
+}
+</script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

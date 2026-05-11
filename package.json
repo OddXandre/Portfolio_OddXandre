@@ -1,0 +1,24 @@
+{
+  "name": "ptf_project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "optimize:images": "node scripts/optimize-images.js",
+    "optimize:videos": "node scripts/optimize-videos.js",
+    "optimize": "npm run optimize:images && npm run optimize:videos"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.14.1"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5",
+    "vite": "^7.2.7"
+  }
+}
