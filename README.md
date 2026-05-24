@@ -27,55 +27,19 @@ Portfolio profesional de **Xandre Carreras (OddXandre)**. Diseño producto digit
 | [Infoca](https://oddxandre.es/project-infoca.html) | Campaña Conciencia Ambiental | Credo | 2024 |
 | [Nook](https://oddxandre.es/project-nook.html) | App Productividad Contextual | EASD San Telmo | 2023 |
 
-### Galería
+### Vista previa
 
-<a href="https://oddxandre.es/project-tito-david.html">
-  <picture>
-    <source srcset="media/work/titodavid.webp" type="image/webp">
-    <img src="media/work/titodavid.jpg" alt="Tito David — Branding y packaging vinícola" width="320" loading="lazy">
-  </picture>
+<a href="https://oddxandre.es">
+  <img src="media/screenshot-home.png" alt="OddXandre Portfolio — Página de inicio" width="700" loading="lazy">
 </a>
-<a href="https://oddxandre.es/project-inboxe.html">
-  <picture>
-    <source srcset="media/work/Wine%20Bottle%203%201.webp" type="image/webp">
-    <img src="media/work/Wine%20Bottle%203%201.jpg" alt="Inboxe Fitboxing — UX/UI y gamificación fitness" width="320" loading="lazy">
-  </picture>
+<a href="https://oddxandre.es/work.html">
+  <img src="media/screenshot-work.png" alt="OddXandre Portfolio — Galería de proyectos" width="700" loading="lazy">
 </a>
-<a href="https://oddxandre.es/project-palena.html">
-  <picture>
-    <source srcset="media/work/palena.webp" type="image/webp">
-    <img src="media/work/palena.webp" alt="Cerveza Paleña — Identidad visual malagueña" width="320" loading="lazy">
-  </picture>
+<a href="https://oddxandre.es/about.html">
+  <img src="media/screenshot-about.png" alt="OddXandre Portfolio — Sobre mí" width="700" loading="lazy">
 </a>
-<a href="https://oddxandre.es/project-beyond-frames.html">
-  <picture>
-    <source srcset="media/work/beyond.webp" type="image/webp">
-    <img src="media/work/beyond.webp" alt="Beyond Frames — Apple Vision Pro Concept" width="320" loading="lazy">
-  </picture>
-</a>
-<a href="https://oddxandre.es/project-copao.html">
-  <picture>
-    <source srcset="media/work/portadacopao.webp" type="image/webp">
-    <img src="media/work/portadacopao.webp" alt="Copao — Campaña de salud mental" width="320" loading="lazy">
-  </picture>
-</a>
-<a href="https://oddxandre.es/project-benahavis.html">
-  <picture>
-    <source srcset="media/work/benahvis.webp" type="image/webp">
-    <img src="media/work/benahvis.webp" alt="Aguas de Benahavís — Campaña de branding" width="320" loading="lazy">
-  </picture>
-</a>
-<a href="https://oddxandre.es/project-infoca.html">
-  <picture>
-    <source srcset="media/work/infoca.webp" type="image/webp">
-    <img src="media/work/infoca.jpg" alt="Infoca — Conciencia ambiental" width="320" loading="lazy">
-  </picture>
-</a>
-<a href="https://oddxandre.es/project-nook.html">
-  <picture>
-    <source srcset="media/work/nook.webp" type="image/webp">
-    <img src="media/work/nook.webp" alt="Nook — App de productividad contextual" width="320" loading="lazy">
-  </picture>
+<a href="https://oddxandre.es/contact.html">
+  <img src="media/screenshot-contact.png" alt="OddXandre Portfolio — Contacto" width="700" loading="lazy">
 </a>
 
 ## Servicios de diseño
