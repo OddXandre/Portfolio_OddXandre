@@ -29,18 +29,35 @@ Portfolio profesional de **Xandre Carreras (OddXandre)**. Diseño producto digit
 
 ### Vista previa
 
-<a href="https://oddxandre.es">
-  <img src="media/screenshot-home.png" alt="OddXandre Portfolio — Página de inicio" width="700" loading="lazy">
-</a>
-<a href="https://oddxandre.es/work.html">
-  <img src="media/screenshot-work.png" alt="OddXandre Portfolio — Galería de proyectos" width="700" loading="lazy">
-</a>
-<a href="https://oddxandre.es/about.html">
-  <img src="media/screenshot-about.png" alt="OddXandre Portfolio — Sobre mí" width="700" loading="lazy">
-</a>
-<a href="https://oddxandre.es/contact.html">
-  <img src="media/screenshot-contact.png" alt="OddXandre Portfolio — Contacto" width="700" loading="lazy">
-</a>
+<p align="center">
+  <a href="https://oddxandre.es">
+    <img src="media/preview-hero.png" alt="OddXandre — Hero section con firma visual y tagline UX/UI & Visual Designer" width="80%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://oddxandre.es">
+    <img src="media/preview-philosophy.png" alt="Filosofía de diseño: Función, Estructura, Intención, Claridad" width="80%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://oddxandre.es/work.html">
+    <img src="media/preview-work-grid.png" alt="Galería de proyectos de diseño UX/UI y branding" width="80%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://oddxandre.es/project-inboxe.html">
+    <img src="media/preview-project.png" alt="Página de proyecto Inboxe Fitboxing con galería interactiva" width="80%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://oddxandre.es">
+    <img src="media/preview-mobile-hero.png" alt="Vista responsive móvil del portfolio" width="30%">
+  </a>
+</p>
 
 ## Servicios de diseño
 
