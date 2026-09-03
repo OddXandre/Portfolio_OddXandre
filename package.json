@@ -1,7 +1,7 @@
 {
-  "name": "ptf_project",
+  "name": "portfolio-oddxandre",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio profesional de Xandre Carreras — Diseñador UX/UI y Visual Designer",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,8 +11,23 @@
     "optimize:videos": "node scripts/optimize-videos.js",
     "optimize": "npm run optimize:images && npm run optimize:videos"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ux-design",
+    "ui-design",
+    "visual-design",
+    "portfolio",
+    "branding",
+    "product-design",
+    "interaction-design",
+    "design-systems",
+    "ux-ui-designer",
+    "malaga",
+    "design-portfolio",
+    "graphic-design",
+    "web-design",
+    "mobile-design"
+  ],
+  "author": "Xandre Carreras <oddxandre@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "gsap": "^3.14.1"

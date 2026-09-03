@@ -1,0 +1,41 @@
+# OddXandre — UX/UI & Visual Designer Portfolio
+
+## About
+OddXandre (Pedro Carreras) is a UX/UI & Visual Designer based in Málaga, Spain. Specializes in product design, strategic branding, web and mobile interfaces, design systems, and user experience.
+
+## Services
+- UX/UI Design
+- Visual Design
+- Strategic Branding
+- Digital Product Design
+- Web & Mobile Interface Design
+- Design Systems
+- UX Consulting
+
+## Skills & Tools
+Figma, Adobe Creative Suite (Photoshop, Illustrator, InDesign, After Effects, Premiere Pro), Framer, Notion, AI-assisted design, GSAP, Web technologies
+
+## Work Experience
+- Product & UX/UI Designer at BeByte S.L. (Apr 2025 — Sep 2025)
+- UX/UI, Visual & Multimedia Designer at Credo.si (Jan 2024 — Dec 2024)
+- UX/UI & Visual Designer at Impar.ux (Jun 2022 — Sep 2024)
+
+## Notable Projects
+- **Inboxe Fitboxing**: UX/UI and gamification for a fitness platform in Brazil (BeByte, 2026)
+- **Tito David**: Wine brand identity and packaging design (Independent, 2026)
+- **Cerveza Paleña**: Visual identity inspired by Málaga's El Palo neighborhood (Independent, 2025)
+- **Beyond Frames**: Apple Vision Pro spatial design concept (EASD San Telmo, 2024)
+- **Copao**: Mental health awareness campaign design (Credo, 2024)
+- **Aguas de Benahavís**: 15-year branding campaign (Credo, 2024)
+- **Infoca**: Environmental awareness campaign (Credo, 2024)
+- **Nook**: Contextual productivity app design (EASD San Telmo, 2023)
+
+## Design Philosophy
+"Design with intention, not decoration. Visual and functional must work together. Clear systems, self-explanatory experiences, and a visual presence that doesn't need to shout."
+
+## Links
+- Website: https://oddxandre.es
+- LinkedIn: https://es.linkedin.com/in/xvndre
+- Instagram: https://www.instagram.com/oddxandre/
+- Email: oddxandre@gmail.com
+- CV: https://oddxandre.es/media/PedroCarreras_UXUI_VisualDesigner.pdf
