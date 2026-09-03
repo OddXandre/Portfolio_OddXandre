@@ -18,7 +18,7 @@
 | | |
 |:---:|:---:|
 | [![Inboxe Fitboxing](media/work/cover-inboxe.jpg)](https://oddxandre.github.io/Portfolio_OddXandre/project-inboxe.html)<br><sub><strong>Inboxe Fitboxing</strong><br>Producto digital · BeByte · 2026</sub> | [![Tito David](media/work/cover-titodavid.jpg)](https://oddxandre.github.io/Portfolio_OddXandre/project-tito-david.html)<br><sub><strong>Tito David</strong><br>Branding & packaging · 2026</sub> |
-| [![Cerveza Paleña](media/work/cover-palena.jpg)](https://oddxandre.github.io/Portfolio_OddXandre/project-palena.html)<br><sub><strong>Cerveza Paleña</strong><br>Identidad visual · 2025</sub> | [![Beyond Frames](media/work/cover-beyond.jpg)](https://oddxandre.github.io/Portfolio_OddXandre/project-beyond-frames.html)<br><sub><strong>Beyond Frames</strong><br>Apple Vision Pro · EASD San Telmo · 2024</sub> |
+| [![Cerveza Paleña](media/work/cover-palena.jpg)](https://oddxandre.github.io/Portfolio_OddXandre/project-palena.html)<br><sub><strong>Cerveza Paleña</strong><br>Identidad visual · 2025</sub> | [![Beyond Frames](media/work/cover-beyond.jpg)](https://oddxandre.github.io/Portfolio_OddXandre/project-beyond-frames.html)<br><sub><strong>Beyond Frames</strong><br>Apple Vision Pro · concepto académico · 2024</sub> |
 
 <p align="center">
   <a href="https://oddxandre.github.io/Portfolio_OddXandre/work.html">Ver los 8 proyectos →</a>
