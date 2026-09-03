@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/banner.png" alt="Xandre Carreras — Product & UX/UI Designer" width="100%">
+</p>
+
 # OddXandre — Portfolio
 
 Product & UX/UI Designer · Málaga, España
