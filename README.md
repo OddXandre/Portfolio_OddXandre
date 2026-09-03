@@ -31,7 +31,7 @@
 </p>
 <p align="center">
   <a href="https://oddxandre.github.io/Portfolio_OddXandre/project-inboxe.html">
-    <img src="media/preview-project.png" alt="Caso de proyecto: Inboxe" width="720">
+    <img src="media/preview-project.jpg" alt="App Inboxe — reservas, perfil y ranking" width="720">
   </a>
 </p>
 
