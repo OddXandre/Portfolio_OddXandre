@@ -34,8 +34,8 @@ Figma, Adobe Creative Suite (Photoshop, Illustrator, InDesign, After Effects, Pr
 "Design with intention, not decoration. Visual and functional must work together. Clear systems, self-explanatory experiences, and a visual presence that doesn't need to shout."
 
 ## Links
-- Website: https://oddxandre.es
+- Website: https://oddxandre.github.io/Portfolio_OddXandre
 - LinkedIn: https://es.linkedin.com/in/xvndre
 - Instagram: https://www.instagram.com/oddxandre/
 - Email: oddxandre@gmail.com
-- CV: https://oddxandre.es/media/PedroCarreras_UXUI_VisualDesigner.pdf
+- CV: https://oddxandre.github.io/Portfolio_OddXandre/media/PedroCarreras_UXUI_VisualDesigner.pdf

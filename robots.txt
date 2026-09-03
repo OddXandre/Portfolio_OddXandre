@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://oddxandre.es/sitemap.xml
+Sitemap: https://oddxandre.github.io/Portfolio_OddXandre/sitemap.xml
